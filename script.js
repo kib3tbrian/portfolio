@@ -8,8 +8,10 @@ const animateHeroSect = () => {
     const profileContainer = document.querySelector(".profile-image-container");
     
     heroSect.classList.add("page_loaded");
-    profileContainer.style.opacity = "1";
-    profileContainer.style.transform = "translateY(0)";
+    
+    if (profileContainer) {
+        profileContainer.classList.add("loaded");
+    }
 }
 
 const toggleDim = () => {
