@@ -301,9 +301,9 @@ p:not(:last-child) {
     object-position: center center;
   
   /* Scale down to fit container */
-    transform: scale(0.464); /* 
+    transform: scale(0.464);
 }
-
+    
 #sideSect {
     position: relative;
 }
