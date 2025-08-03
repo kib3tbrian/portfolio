@@ -276,7 +276,6 @@ p:not(:last-child) {
     opacity: 1 !important;
     transform: translateY(0px) !important;
 }
-/* Add this new image container style */
 /* Profile Image Container */
 .profile-image-container {
     width: 200px;
@@ -296,7 +295,7 @@ p:not(:last-child) {
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    
+    display: block;    
 }
     
 #sideSect {
