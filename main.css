@@ -276,34 +276,18 @@ p:not(:last-child) {
     opacity: 1 !important;
     transform: translateY(0px) !important;
 }
-
-#outerHexagon {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: var(--hexSize);
-    height: calc(var(--hexSize) * 1.1547);
-    max-width: var(--hexMaxWidth);
-    max-height: var(--hexMaxHeight);
-    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-    background-color: #232323;
-    flex-shrink: 0;
-    transition: 800ms;
+/* Add this new image container style */
+#profile-image {
+    width: 300px; /* Adjust as needed */
+    height: 300px;
+    border-radius: 50%; /* Makes it circular - remove for square */
+    object-fit: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     opacity: 0;
     transform: translateY(-200px);
-    /* animation: 600ms normal forwards 1 fadeImageIn; */
-    
-}
-#outerHexagon #innerHexagon {
-    width: calc(var(--hexSize) - 8px);
-    height: calc(var(--hexSize) * 1.1547 - 8px);
-    max-width: calc(var(--hexMaxWidth) - 8px);
-    max-height: calc(var(--hexMaxHeight) - 8px);
-    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-    background-image: url("../images/Headshot.avif");
-    background-size: cover;
-    background-position: center;
+    transition: 800ms;
+    border: 3px solid #ffffff;
 }
 
 #sideSect {
