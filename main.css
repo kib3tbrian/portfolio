@@ -278,16 +278,22 @@ p:not(:last-child) {
 }
 /* Add this new image container style */
 #profile-image {
-    width: 300px; /* Adjust as needed */
-    height: 300px;
-    border-radius: 50%; /* Makes it circular - remove for square */
+    /* Square with rounded corners */
+    border-radius: 12px; /* Adjust corner roundness */
     object-fit: cover;
-    background-position: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    
+    /* Default mobile size */
+    width: 180px;
+    height: 180px;
+    
+    /* Visual styling */
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+    /* Animation properties */
     opacity: 0;
     transform: translateY(-200px);
-    transition: 800ms;
-    border: 3px solid #ffffff;
+    transition: all 800ms ease-out;
 }
 
 #sideSect {
@@ -709,9 +715,10 @@ footer p {
 
 @media only screen and (max-width: 768px) {
   #profile-image {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
+    width: 150px; /* Smaller on mobile */
+    height: 150px;
+    border-radius: 8px; /* Slightly less rounded on mobile */
+    margin-bottom: 15px;
   }
 }
 
