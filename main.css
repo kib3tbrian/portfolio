@@ -722,6 +722,23 @@ footer p {
   }
 }
 
+@media only screen and (min-width: 769px) {
+  #profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 14px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #profile-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 16px;
+    border-width: 3px;
+  }
+}
+
 @media only screen and (min-width: 880px) {
     #projectSect {
         width: fit-content;
