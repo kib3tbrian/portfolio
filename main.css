@@ -282,21 +282,26 @@ p:not(:last-child) {
     width: 180px;
     height: 180px;
     border-radius: 12px;
-    padding: 4px;
-    background: white;
+    overflow: hidden;
+    position: relative;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border: 3px solid #ffffff;
     opacity: 0;
     transform: translateY(-200px);
     transition: all 800ms ease-out;
-    overflow: hidden;
-    margin-bottom: 20px;
 }
 
 #profile-image {
+    position: absolute;
     width: 100%;
     height: 100%;
+  
+  /* Center and crop the important area */
     object-fit: cover;
-    display: block;
+    object-position: center center;
+  
+  /* Scale down to fit container */
+    transform: scale(0.464); /* 
 }
 
 #sideSect {
@@ -721,21 +726,22 @@ footer p {
         width: 150px;
         height: 150px;
         border-radius: 8px;
-        margin-bottom: 15px;
+        border-width: 2px;
     }
 }
 
 @media only screen and (min-width: 769px) {
     .profile-image-container {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
     }
 }
 
 @media only screen and (min-width: 880px) {
     .profile-image-container {
-        width: 220px;
-        height: 220px;
+        width: 280px;
+        height: 280px;
+        border-radius: 16px;
     }
 }
 
