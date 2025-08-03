@@ -5,11 +5,11 @@ const yearSpan = document.getElementById("currentYear");//Copyright year at bott
 
 const animateHeroSect = () => {
     const heroSect = document.getElementById("landing");
-    const profileImage = document.getElementById("profile-image");
-
+    const profileContainer = document.querySelector(".profile-image-container");
+    
     heroSect.classList.add("page_loaded");
-    profileImage.style.opacity = "1"; // Override the inline style
-    profileImage.style.transform = "translateY(0)";
+    profileContainer.style.opacity = "1";
+    profileContainer.style.transform = "translateY(0)";
 }
 
 const toggleDim = () => {
