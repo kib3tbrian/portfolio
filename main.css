@@ -1,6 +1,6 @@
 /* 
-By Sheldon Codling
-October 16th, 2022
+By Kibet Brian
+November 27th, 2022
 */
 * {
     padding: 0;
@@ -705,6 +705,14 @@ footer {
 }
 footer p {
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #profile-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 880px) {
