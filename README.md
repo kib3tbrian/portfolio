@@ -71,9 +71,5 @@ npm start
 * Edit styles in `src/app/globals.css` or Tailwind classes
 * Modify fonts in `src/app/layout.tsx`
 
-**📧 Contact**
-**GitHub:** [@kib3tbrian](https://github.com/kib3tbrian)  
-**Website:** [kibetbrian.pro](https://kibetbrian.pro)
-
 **📄 License**
 This project is open source and available under the MIT License.
