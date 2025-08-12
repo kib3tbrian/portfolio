@@ -1,7 +1,7 @@
 # Kibet Brian - Portfolio Website
 
-**🚀 Overview**
-This is a modern, responsive portfolio website built with **Next.js 14**, **React 18**, and **Tailwind CSS**. It serves as a personal homepage, project showcase, and contact point for **@kib3tbrian**.
+**🚀 Overview:**
+This is a modern, responsive portfolio website built with **Next.js 14**, **React 18**, and **Tailwind CSS**. It serves as my personal homepage, project showcase, and contact point.
 
 * **Live Demo:** [kibetbrian.pro](https://kibetbrian.pro)
 
