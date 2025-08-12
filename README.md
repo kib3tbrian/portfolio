@@ -1,33 +1,79 @@
 # Kibet Brian - Portfolio Website
 
-Modern portfolio built with Next.js 13+ App Router, TypeScript, and Tailwind CSS.
+**🚀 Overview**
+This is a modern, responsive portfolio website built with **Next.js 14**, **React 18**, and **Tailwind CSS**. It serves as a personal homepage, project showcase, and contact point for **@kib3tbrian**.
 
-## 🌐 Live Demo
+* **Live Demo:** [kibetbrian.pro](https://kibetbrian.pro)
 
-**Website**: [kibetbrian.pro](https://kibetbrian.pro)
+**✨ Features**
+* Responsive design for desktop, tablet, and mobile
+* Project and skills showcase
+* Smooth scrolling navigation with active sections
+* Interactive testimonials section
+* Contact form integration
+* Built with performance and accessibility in mind
 
-## 🛠️ Tech Stack
+**🛠️ Tech Stack**
+* Next.js 14
+* React 18
+* TypeScript
+* Tailwind CSS
 
-- **Framework**: Next.js 13+ App Router
-- **Language**: TypeScript  
-- **Styling**: Tailwind CSS
-- **Fonts**: Inter, Calistoga
-- **Deployment**: Vercel
+**📁 Project Structure**
 
-## 🚀 Getting Started
+```
+├── public/            # Static assets (images, PDFs, SVGs)
+├── src/
+│   ├── app/           # Next.js app directory (pages, layout, styles)
+│   ├── assets/        # SVG icons, images
+│   ├── components/    # Reusable React components
+│   └── sections/      # Page sections (About, Projects, etc.)
+├── tailwind.config.ts # Tailwind CSS config
+├── next.config.mjs    # Next.js config
+├── package.json       # Project metadata and scripts
+└── ...
+```
+
+**🧑‍💻 Getting Started**
+**Prerequisites**
+* Node.js (v18+)
+* npm / yarn or pnpm
+
+**Installation**
 
 ```bash
-# Clone and install
+# Clone the repository
 git clone https://github.com/kib3tbrian/portfolio.git
 cd portfolio
-npm install
 
-# Run development server
+# Install dependencies
+npm install
+```
+
+**Development**
+
+```bash
+# Start the local dev server
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000)
+Visit http://localhost:3000 to view the site.
 
-## 📧 Contact
+**Build for Production**
 
-**GitHub**: [@kib3tbrian](https://github.com/kib3tbrian) 
+```bash
+npm run build
+npm start
+```
+
+**📝 Customization**
+* Update content in `src/sections/` components
+* Edit styles in `src/app/globals.css` or Tailwind classes
+* Modify fonts in `src/app/layout.tsx`
+
+**📧 Contact**
+**GitHub:** [@kib3tbrian](https://github.com/kib3tbrian)  
+**Website:** [kibetbrian.pro](https://kibetbrian.pro)
+
+**📄 License**
+This project is open source and available under the MIT License.
