@@ -9,7 +9,6 @@ import GitIcon from "@/assets/icons/toolbox/git.svg";
 import PostgresIcon from "@/assets/icons/toolbox/postgresql.svg";
 import FirebaseIcon from "@/assets/icons/toolbox/firebase.svg";
 import GithubIcon from "@/assets/icons/toolbox/github.svg";
-import BunIcon from "@/assets/icons/toolbox/bun.svg";
 import PostmanIcon from "@/assets/icons/toolbox/postman.svg";
 import TailwindIcon from "@/assets/icons/toolbox/tailwind.svg";
 import MongoDBIcon from "@/assets/icons/toolbox/mongo-db.svg";
