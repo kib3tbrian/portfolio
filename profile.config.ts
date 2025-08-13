@@ -163,8 +163,12 @@ const CONFIG = {
             href: "https://github.com/kib3tbrian",
         },
         {
-            title: "LinkedIn",
-            href: "https://www.linkedin.com/in/kibet-brian-1433b9214",
+            title: "Discord",
+            href: "https://discord.com/users/945739329517522974",
+        },
+        {
+            title: "Signal",
+            href: "https://signal.me/#eu/HuTGxV12vBtFuKYV9Zwlz4YoDWhx-5_-_IyFRUx0R4pPA133bf1F17kcnrz4-zfx",
         },
     ],
     portfolioProjects: [
