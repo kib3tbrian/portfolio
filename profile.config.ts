@@ -4,21 +4,21 @@ import SolidityIcon from "@/assets/icons/toolbox/solidity.svg";
 import HTML5Icon from "@/assets/icons/toolbox/html5.svg";
 import CssIcon from "@/assets/icons/toolbox/css3.svg";
 import ReactIcon from "@/assets/icons/toolbox/react.svg";
-import ElectronIcon from "@/assets/icons/toolbox/electron.svg";
+import FastAPIIcon from "@/assets/icons/toolbox/fastapi.svg";
 import GitIcon from "@/assets/icons/toolbox/git.svg";
-import PolypaneIcon from "@/assets/icons/toolbox/polypane.svg";
+import PostgresIcon from "@/assets/icons/toolbox/postgresql.svg";
 import FirebaseIcon from "@/assets/icons/toolbox/firebase.svg";
 import GithubIcon from "@/assets/icons/toolbox/github.svg";
 import BunIcon from "@/assets/icons/toolbox/bun.svg";
 import PostmanIcon from "@/assets/icons/toolbox/postman.svg";
 import TailwindIcon from "@/assets/icons/toolbox/tailwind.svg";
 import MongoDBIcon from "@/assets/icons/toolbox/mongo-db.svg";
-import ViteIcon from "@/assets/icons/toolbox/vite.svg";
+import NextjsIcon from "@/assets/icons/toolbox/nextjs.svg";
 import VSCodeIcon from "@/assets/icons/toolbox/vs-code.svg";
 import VercelIcon from "@/assets/icons/toolbox/vercel.svg";
 import SwaggerIcon from "@/assets/icons/toolbox/swagger.svg";
 import NodeJsIcon from "@/assets/icons/toolbox/node-js.svg";
-import NestIcon from "@/assets/icons/toolbox/nest.svg";
+import FlutterIcon from "@/assets/icons/toolbox/flutter.svg";
 import localSocialPostmanPage from "@/assets/images/local-social-postman-page.png";
 import profileCardsGeneratorPage from "@/assets/images/profile-cards-generator-page.png";
 import markshifyLandingPage from "@/assets/images/markshify-landing-page.png";
@@ -39,7 +39,7 @@ const CONFIG = {
         },
         {
             title: "Python",
-            iconType: SquareJsIcon,
+            iconType: PythonIcon,
         },
         {
             title: "TypeScript",
@@ -59,11 +59,11 @@ const CONFIG = {
         },
         {
             title: "Flutter",
-            iconType: NestIcon,
+            iconType: FlutterIcon,
         },
         {
             title: "FastAPI",
-            iconType: ElectronIcon,
+            iconType: FastAPIIcon,
         },
         {
             title: "Postman",
@@ -75,7 +75,7 @@ const CONFIG = {
         },
         {
             title: "Nextjs",
-            iconType: ViteIcon,
+            iconType: NextjsIcon,
         },
         {
             title: "MongoDB",
@@ -87,7 +87,7 @@ const CONFIG = {
         },
         {
             title: "PostgreSQL",
-            iconType: PolypaneIcon,
+            iconType: PostgresIcon,
         },
         {
             title: "Git",
