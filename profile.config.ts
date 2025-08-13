@@ -105,6 +105,57 @@ const CONFIG = {
             iconType: VercelIcon,
         },
     ],
+    hobbies: [
+        {
+            title: "Singing Alone",
+            emoji: "🎤",
+            left: "5%",
+            top: "3%",
+            zIndex: 0,
+        },
+        {
+            title: "Photography",
+            emoji: "📸",
+            left: "50%",
+            top: "3%",
+            zIndex: 0,
+        },
+        {
+            title: "Gaming",
+            emoji: "🎮",
+            left: "10%",
+            top: "33%",
+            zIndex: 0,
+        },
+        {
+            title: "Music",
+            emoji: "🎵",
+            left: "35%",
+            top: "40%",
+            zIndex: -10,
+        },
+        {
+            title: "Meetups",
+            emoji: "👥",
+            left: "70%",
+            top: "45%",
+            zIndex: 0,
+        },
+        {
+            title: "Workout & Fitness",
+            emoji: "🏋️",
+            left: "5%",
+            top: "65%",
+            zIndex: 0,
+        },
+        {
+            title: "Reading",
+            emoji: "📚",
+            left: "45%",
+            top: "70%",
+            zIndex: 0,
+        },
+    ],    
     footerLinks: [
         {
             title: "Github",
