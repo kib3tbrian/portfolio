@@ -172,13 +172,13 @@ const CONFIG = {
             name: "Ray Youssef",
             position: "CEO @ Noones",
             text: "Brian's work on our mobile app significantly improved performance and user experience. His attention to detail and clean coding practices made him a valuable asset to our team. Highly recommended for any Android development project.",
-            avatar: memojilAvatar3,
+            avatar: memojiAvatar3,
         },
         {
             name: "Dr. Koczela",
             position: "COO @ Penda Health",
             text: "Brian provided excellent data analysis that helped us make better operational decisions. He transformed complex datasets into clear, actionable insights. A thoughtful professional who asks the right questions to deliver meaningful results.",
-            avatar: memojilAvatar3,
+            avatar: memojiAvatar3,
         },
     ],
 };
