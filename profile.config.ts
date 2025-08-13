@@ -172,7 +172,7 @@ const CONFIG = {
             name: "Ray Youssef",
             position: "CEO @ Noones",
             text: "Brian's work on our mobile app significantly improved performance and user experience. His attention to detail and clean coding practices made him a valuable asset to our team. Highly recommended for any Android development project.",
-            avatar: shanzilAvatar,
+            avatar: memojiAvatar3,
         },
         {
             name: "Dr. Koczela",
