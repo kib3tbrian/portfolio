@@ -1,4 +1,4 @@
-import SquareJsIcon from "@/assets/icons/toolbox/square-js.svg";
+import PythonIcon from "@/assets/icons/toolbox/python.svg";
 import SquareTsIcon from "@/assets/icons/toolbox/square-ts.svg";
 import SolidityIcon from "@/assets/icons/toolbox/solidity.svg";
 import HTML5Icon from "@/assets/icons/toolbox/html5.svg";
@@ -38,7 +38,7 @@ const CONFIG = {
             iconType: CssIcon,
         },
         {
-            title: "JavaScript",
+            title: "Python",
             iconType: SquareJsIcon,
         },
         {
@@ -58,11 +58,11 @@ const CONFIG = {
             iconType: SolidityIcon,
         },
         {
-            title: "Nest",
+            title: "Flutter",
             iconType: NestIcon,
         },
         {
-            title: "Electron",
+            title: "FastAPI",
             iconType: ElectronIcon,
         },
         {
@@ -74,7 +74,7 @@ const CONFIG = {
             iconType: ReactIcon,
         },
         {
-            title: "Vite",
+            title: "Nextjs",
             iconType: ViteIcon,
         },
         {
@@ -86,7 +86,7 @@ const CONFIG = {
             iconType: FirebaseIcon,
         },
         {
-            title: "Polypane",
+            title: "PostgreSQL",
             iconType: PolypaneIcon,
         },
         {
@@ -104,57 +104,6 @@ const CONFIG = {
         {
             title: "Vercel",
             iconType: VercelIcon,
-        },
-    ],
-    hobbies: [
-        {
-            title: "Singing Alone",
-            emoji: "🎤",
-            left: "5%",
-            top: "3%",
-            zIndex: 0,
-        },
-        {
-            title: "Photography",
-            emoji: "📸",
-            left: "50%",
-            top: "3%",
-            zIndex: 0,
-        },
-        {
-            title: "Gaming",
-            emoji: "🎮",
-            left: "10%",
-            top: "33%",
-            zIndex: 0,
-        },
-        {
-            title: "Music",
-            emoji: "🎵",
-            left: "35%",
-            top: "40%",
-            zIndex: -10,
-        },
-        {
-            title: "Meetups",
-            emoji: "👥",
-            left: "70%",
-            top: "45%",
-            zIndex: 0,
-        },
-        {
-            title: "Workout & Fitness",
-            emoji: "🏋️",
-            left: "5%",
-            top: "65%",
-            zIndex: 0,
-        },
-        {
-            title: "Reading",
-            emoji: "📚",
-            left: "45%",
-            top: "70%",
-            zIndex: 0,
         },
     ],
     footerLinks: [
@@ -229,7 +178,7 @@ const CONFIG = {
             name: "Dr. Koczela",
             position: "COO @ Penda Health",
             text: "Brian provided excellent data analysis that helped us make better operational decisions. He transformed complex datasets into clear, actionable insights. A thoughtful professional who asks the right questions to deliver meaningful results.",
-            avatar: memojiAvatar3,
+            avatar: memojilAvatar3,
         },
     ],
 };
