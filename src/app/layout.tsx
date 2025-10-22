@@ -8,7 +8,7 @@ const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weig
 
 export const metadata: Metadata = {
     title: "Kibet Brian",
-    description: "Build with love",
+    description: "Code. Break. Fix. Repeat.",
 };
 
 export default function RootLayout({
