@@ -19,7 +19,7 @@ import SwaggerIcon from "@/assets/icons/toolbox/swagger.svg";
 import NodeJsIcon from "@/assets/icons/toolbox/node-js.svg";
 import FlutterIcon from "@/assets/icons/toolbox/flutter.svg";
 import localSocialPostmanPage from "@/assets/images/local-social-postman-page.png";
-import profileCardsGeneratorPage from "@/assets/images/profile-cards-generator-page.png";
+import distressapp from "@/assets/images/distress-app.jpg";
 import markshifyLandingPage from "@/assets/images/markshify-landing-page.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import grownUpMarketingAvatar from "@/assets/images/grown-up-marketing.webp";
@@ -207,7 +207,7 @@ const CONFIG = {
                 { title: "Set for Play Store launch with full mobile optimization and production-ready build" },
             ],
             link: "https://distress.com/",
-            image: profileCardsGeneratorPage,
+            image: distressapp,
             linkText: "View Screenshots",
         },
     ],
