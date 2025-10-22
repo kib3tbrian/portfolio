@@ -12,7 +12,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                 <SectionHeader
                     heading1="Real-world Results"
                     heading2="Featured Projects"
-                    paragraph="See how I transformed concepts into engaging digital experiences."
+                    paragraph="From backend logic to polished UI — here’s how I bring full-stack ideas to life."
                 />
                 <div className="flex flex-col gap-20 mt-10 md:mt-20">
                     {portfolioProjects.map((project, index) => (
