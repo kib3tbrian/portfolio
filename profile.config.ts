@@ -206,7 +206,7 @@ const CONFIG = {
                 { title: "Streamlined UX with debounced inputs, instant validation, and responsive design" },
                 { title: "Set for Play Store launch with full mobile optimization and production-ready build" },
             ],
-            link: "https://distress.com/",
+            link: "@/assets/images/distress-app.jpg",
             image: distressapp,
             linkText: "View Screenshots",
         },
