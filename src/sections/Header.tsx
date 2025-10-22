@@ -127,7 +127,7 @@ export const Header = ({
                     const labels: Record<string, string> = {
                         [heroSectionId]: "Home",
                         [projectsSectionId]: "Projects",
-                        [testimonialsSectionId]: "Impressions",
+                        [testimonialsSectionId]: "Testimonialss",
                         [aboutSectionId]: "About",
                     };
 
