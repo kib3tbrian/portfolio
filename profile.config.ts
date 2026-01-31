@@ -166,8 +166,8 @@ const CONFIG = {
             href: "https://discord.com/users/945739329517522974",
         },
         {
-            title: "Signal",
-            href: "https://signal.me/#eu/HuTGxV12vBtFuKYV9Zwlz4YoDWhx-5_-_IyFRUx0R4pPA133bf1F17kcnrz4-zfx",
+            title: "Telegram",
+            href: "https://t.me/uyscvtii",
         },
     ],
     portfolioProjects: [
