@@ -20,7 +20,7 @@ export const Footer = () => {
                                 target="_blank"
                                 className="inline-flex items-center gap-1.5">
                                 <span className="font-semibold">{footerLink.title}</span>
-                                <ArrowUpRightIcon className="size-4" />
+                                <ArrowUpRightIcon className="size-5" />
                             </a>
                         ))}
                     </nav>
