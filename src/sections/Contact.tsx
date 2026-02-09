@@ -25,7 +25,7 @@ export const ContactSection = ({ id }: { id: string }) => {
                         <a href={`mailto:${email}`}>
                             <button className="bg-gray-900 text-white inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max">
                                 <span className="font-semibold">Contact Me</span>
-                                <ArrowUpRightIcon className="size-4" />
+                                <ArrowUpRightIcon className="size-5" />
                             </button>
                         </a>
                     </div>
