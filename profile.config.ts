@@ -185,6 +185,19 @@ const CONFIG = {
             linkText: "View Flowchart",
         },
         {
+            company: "Ultimate MedLink Ltd",
+            year: "2026",
+            title: "Medical Tourism Platform",
+            results: [
+                { title: "Built a platform that positions Ultimate MedLink as Africa's bridge to world-class healthcare" },
+                { title: "Highlighted access to care across India, Israel, Kenya, Turkey, and the UAE with transparent patient journeys" },
+                { title: "Showcased scale through 300+ hospitals, 10+ specialties, 50+ JCI-accredited partners, and Pan-African support" },
+            ],
+            link: "https://uml.co.ke",
+            image: "/images/uml.png",
+            linkText: "View Live Site",
+        },
+        {
             company: "GPS Travel",
             year: "2023",
             title: "Tours & Travel Platform",
