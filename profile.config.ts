@@ -26,7 +26,7 @@ import grownUpMarketingAvatar from "@/assets/images/grown-up-marketing.webp";
 import shanzilAvatar from "@/assets/images/shanzil-avatar.webp";
 
 const CONFIG = {
-    email: "its.kibetbrian@gmail.com",
+    email: "hello@kibetbrian.codes",
     toolboxItems: [
         {
             title: "HTML5",
