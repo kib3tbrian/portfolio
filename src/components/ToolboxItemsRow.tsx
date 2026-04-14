@@ -18,7 +18,7 @@ export const ToolboxItemsRow = ({
 }) => {
     return (
         <div
-            className={twMerge("flex", className)}
+            className={twMerge("flex justify-center w-full", className)}
             style={{
                 maskImage: `linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)`,
             }}>

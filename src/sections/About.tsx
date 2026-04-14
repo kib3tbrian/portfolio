@@ -26,24 +26,24 @@ export const AboutSection = ({ id }: { id: string }) => {
                 <SectionHeader
                     heading1="About Me"
                     heading2="I Build The Good Stuff, End to End"
-                    paragraph="From slick frontends to hard-working backends and cloud setup, I turn ideas into products people actually enjoy using."
+                    paragraph="From slick frontends to robust backends and cloud setup, I turn ideas into products people actually enjoy using."
                 />
                 <div className="mt-20 flex flex-col gap-6">
                     <div className="grid gap-8 grid-cols-1 md:flex md:justify-center lg:flex lg:justify-center">
-                        <Card className="min-h-[360px] pb-8 md:pb-10 p-0 md:col-span-3 lg:col-span-2">
+                        <Card className="min-h-[360px] pb-8 md:pb-10 p-0 md:col-span-3 lg:col-span-2 overflow-hidden">
                             <CardHeader
                                 heading="My Toolbox"
-                                description="My go-to stack for shipping fast, building smart, and keeping products sturdy under the hood."
+                                description=""
                                 className="p-6 pb-0 lg:-mt-0.5 flex flex-col items-center text-center"
                             />
                             <ToolboxItemsRow
                                 items={firstRowItems}
-                                className="mt-4 md:mt-6"
+                                className="mt-4 md:mt-6 justify-center"
                                 itemsWrapperClassName="animate-scroll-left [animation-duration:55s]"
                             />
                             <ToolboxItemsRow
                                 items={secondRowItems}
-                                className="mt-5 md:mt-6"
+                                className="mt-5 md:mt-6 justify-center"
                                 itemsWrapperClassName="animate-scroll-right [animation-duration:70s]"
                             />
                         </Card>
