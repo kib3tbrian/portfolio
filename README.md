@@ -3,7 +3,7 @@
 **🚀 Overview:**
 This is a modern, responsive portfolio website built with **Next.js 14**, **React 18**, and **Tailwind CSS**. It serves as my personal homepage, project showcase, and contact point.
 
-* **Live Demo:** [kibetbrian.pro](https://kibetbrian.pro)
+* **Live Demo:** [portfolio](https://kibetbrian.codes)
 
 **✨ Features**
 * Responsive design for desktop, tablet, and mobile

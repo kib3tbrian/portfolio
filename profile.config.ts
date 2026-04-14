@@ -65,7 +65,7 @@ const DbtIcon = createTextBadgeIcon("dbt");
 const SparkIcon = createTextBadgeIcon("Spark");
 
 const CONFIG = {
-    email: "its.kibetbrian@gmail.com",
+    email: "hello@kibetbrian.codes",
     toolboxItems: [
         {
             title: "HTML5",
