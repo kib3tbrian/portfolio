@@ -19,50 +19,34 @@ import VercelIcon from "@/assets/icons/toolbox/vercel.svg";
 import SwaggerIcon from "@/assets/icons/toolbox/swagger.svg";
 import NodeJsIcon from "@/assets/icons/toolbox/node-js.svg";
 import FlutterIcon from "@/assets/icons/toolbox/flutter.svg";
+import PHPIcon from "@/assets/icons/toolbox/php.svg";
+import SQLIcon from "@/assets/icons/toolbox/sql.svg";
+import BashIcon from "@/assets/icons/toolbox/bash.svg";
+import ShellIcon from "@/assets/icons/toolbox/shell.svg";
+import RESTIcon from "@/assets/icons/toolbox/rest.svg";
+import PrismaIcon from "@/assets/icons/toolbox/prisma.svg";
+import BetterAuthIcon from "@/assets/icons/toolbox/better-auth.svg";
+import SupabaseIcon from "@/assets/icons/toolbox/supabase.svg";
+import RedisIcon from "@/assets/icons/toolbox/redis.svg";
+import DockerIcon from "@/assets/icons/toolbox/docker.svg";
+import ActionsIcon from "@/assets/icons/toolbox/actions.svg";
+import AWSIcon from "@/assets/icons/toolbox/aws.svg";
+import GCPIcon from "@/assets/icons/toolbox/gcp.svg";
+import OCIIcon from "@/assets/icons/toolbox/oci.svg";
+import LinuxIcon from "@/assets/icons/toolbox/linux.svg";
+import PyTorchIcon from "@/assets/icons/toolbox/pytorch.svg";
+import TensorFlowIcon from "@/assets/icons/toolbox/tensorflow.svg";
+import LangChainIcon from "@/assets/icons/toolbox/langchain.svg";
+import PandasIcon from "@/assets/icons/toolbox/pandas.svg";
+import JupyterIcon from "@/assets/icons/toolbox/jupyter.svg";
+import DbtIcon from "@/assets/icons/toolbox/dbt.svg";
+import SparkIcon from "@/assets/icons/toolbox/spark.svg";
 import localSocialPostmanPage from "@/assets/images/local-social-postman-page.png";
 import distressapp from "@/assets/images/distress-app.jpg";
 import markshifyLandingPage from "@/assets/images/markshify-landing-page.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import grownUpMarketingAvatar from "@/assets/images/grown-up-marketing.webp";
 import shanzilAvatar from "@/assets/images/shanzil-avatar.webp";
-import React from "react";
-
-const createTextBadgeIcon = (label: string) => {
-    const TextBadgeIcon = ({ className }: { className?: string }) =>
-        React.createElement(
-            "div",
-            {
-                className: `${className ?? ""} rounded-xl border border-white/10 bg-white/5 text-[10px] font-bold tracking-wide text-white flex items-center justify-center px-1 text-center leading-tight`,
-            },
-            label
-        );
-
-    TextBadgeIcon.displayName = `${label}BadgeIcon`;
-    return TextBadgeIcon;
-};
-
-const PHPIcon = createTextBadgeIcon("PHP");
-const SQLIcon = createTextBadgeIcon("SQL");
-const BashIcon = createTextBadgeIcon("Bash");
-const ShellIcon = createTextBadgeIcon("Shell");
-const RESTIcon = createTextBadgeIcon("REST");
-const PrismaIcon = createTextBadgeIcon("Prisma");
-const BetterAuthIcon = createTextBadgeIcon("Auth");
-const SupabaseIcon = createTextBadgeIcon("Supabase");
-const RedisIcon = createTextBadgeIcon("Redis");
-const DockerIcon = createTextBadgeIcon("Docker");
-const ActionsIcon = createTextBadgeIcon("Actions");
-const AWSIcon = createTextBadgeIcon("AWS");
-const GCPIcon = createTextBadgeIcon("GCP");
-const OCIIcon = createTextBadgeIcon("OCI");
-const LinuxIcon = createTextBadgeIcon("Linux");
-const PyTorchIcon = createTextBadgeIcon("PyTorch");
-const TensorFlowIcon = createTextBadgeIcon("TF");
-const LangChainIcon = createTextBadgeIcon("LangChain");
-const PandasIcon = createTextBadgeIcon("Pandas");
-const JupyterIcon = createTextBadgeIcon("Jupyter");
-const DbtIcon = createTextBadgeIcon("dbt");
-const SparkIcon = createTextBadgeIcon("Spark");
 
 const CONFIG = {
     email: "hello@kibetbrian.codes",

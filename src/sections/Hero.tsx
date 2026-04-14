@@ -112,7 +112,7 @@ export const HeroSection = ({ id }: { id: string }) => {
                         Kibet Brian
                     </h1>
                     <p className="mt-4 text-center font-light text-white/80 tracking-wide md:text-lg">
-                        Fullstack engineer. Web. Mobile. Both. Yeah, I do that.
+                        Software Engineer | ML Engineer | Cloud Security
                     </p>
                     <p className="mt-3 text-center text-sm md:text-base text-white/60 tracking-wide">
                         No bugs were harmed in the making of this portfolio. Some were, actually. They deserved it.
