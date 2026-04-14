@@ -16,18 +16,20 @@ export const ToolboxItemsRow = ({
     className?: string;
     itemsWrapperClassName?: string;
 }) => {
+    const repeatCount = items.length > 0 ? 8 : 0;
+
     return (
         <div
-            className={twMerge("flex justify-center w-full", className)}
+            className={twMerge("flex w-full overflow-x-clip", className)}
             style={{
                 maskImage: `linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)`,
             }}>
-            <div className={twMerge("flex flex-none py-0.5 gap-6 pr-3", itemsWrapperClassName)}>
-                {[...new Array(items.length > 0 ? 2 : 0)].fill(0).map((_, index) => (
+            <div className={twMerge("flex w-max flex-none py-0.5 gap-6 pr-6", itemsWrapperClassName)}>
+                {[...new Array(repeatCount)].fill(0).map((_, index) => (
                     <Fragment key={index}>
                         {items.map((item) => (
                             <div
-                                key={item.title}
+                                key={`${item.title}-${index}`}
                                 className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg">
                                 <ToolIcon component={item.iconType} />
                                 <span className="font-semibold">{item.title}</span>

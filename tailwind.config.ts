@@ -29,6 +29,8 @@ const config: Config = {
                 "ping-large": "ping-large 1s ease-in-out infinite",
                 "scroll-left": "scroll-left 1s linear infinite",
                 "scroll-right": "scroll-right 1s linear infinite",
+                "toolbox-scroll-left": "toolbox-scroll-left 1s linear infinite",
+                "toolbox-scroll-right": "toolbox-scroll-right 1s linear infinite",
             },
             keyframes: {
                 "ping-large": {
@@ -48,6 +50,22 @@ const config: Config = {
                 "scroll-right": {
                     "0%": {
                         transform: "translateX(-50%)",
+                    },
+                    "100%": {
+                        transform: "translateX(0%)",
+                    },
+                },
+                "toolbox-scroll-left": {
+                    "0%": {
+                        transform: "translateX(0%)",
+                    },
+                    "100%": {
+                        transform: "translateX(-12.5%)",
+                    },
+                },
+                "toolbox-scroll-right": {
+                    "0%": {
+                        transform: "translateX(-12.5%)",
                     },
                     "100%": {
                         transform: "translateX(0%)",

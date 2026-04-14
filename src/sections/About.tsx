@@ -17,8 +17,7 @@ export const AboutSection = ({ id }: { id: string }) => {
         () => toolBoxItems.filter((item, index, items) => items.findIndex((entry) => entry.title === item.title) === index),
         []
     );
-    const firstRowItems = uniqueToolboxItems.filter((_, index) => index % 2 === 0);
-    const secondRowItems = uniqueToolboxItems.filter((_, index) => index % 2 === 1);
+    const secondRowItems = useMemo(() => [...uniqueToolboxItems].reverse(), [uniqueToolboxItems]);
 
     return (
         <div className="py-20 md:py-14 lg:py-20 lg:mt-3">
@@ -32,19 +31,19 @@ export const AboutSection = ({ id }: { id: string }) => {
                     <div className="grid gap-8 grid-cols-1 md:flex md:justify-center lg:flex lg:justify-center">
                         <Card className="min-h-[360px] pb-8 md:pb-10 p-0 md:col-span-3 lg:col-span-2 overflow-hidden">
                             <CardHeader
-                                heading="My Toolbox"
-                                description="Fast. Smart. Bulletproof. Obviously."
+                                heading="Toolbox"
+                                description="My stack. Ship fast, build smart, stay sturdy under pressure."
                                 className="p-6 pb-0 lg:-mt-0.5 flex flex-col items-center text-center"
                             />
                             <ToolboxItemsRow
-                                items={firstRowItems}
-                                className="mt-4 md:mt-6 justify-center"
-                                itemsWrapperClassName="animate-scroll-left [animation-duration:55s]"
+                                items={uniqueToolboxItems}
+                                className="mt-4 md:mt-6"
+                                itemsWrapperClassName="animate-toolbox-scroll-left [animation-duration:40s]"
                             />
                             <ToolboxItemsRow
                                 items={secondRowItems}
-                                className="mt-5 md:mt-6 justify-center"
-                                itemsWrapperClassName="animate-scroll-right [animation-duration:70s]"
+                                className="mt-5 md:mt-6"
+                                itemsWrapperClassName="animate-toolbox-scroll-right [animation-duration:40s]"
                             />
                         </Card>
                     </div>
