@@ -18,8 +18,7 @@ export const ContactSection = ({ id }: { id: string }) => {
                                 Let&apos;s build something reliable and useful
                             </h2>
                             <p className="text-sm md:text-base mt-2">
-                                If you need a full-stack engineer who can take a product from planning to deployment,
-                                let&apos;s talk about your next build.
+                                From blueprint to launch — let's build something.
                             </p>
                         </div>
                         <a href={`mailto:${email}`}>
