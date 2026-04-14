@@ -12,7 +12,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                 <SectionHeader
                     heading1="Real-world Results"
                     heading2="Featured Projects"
-                    paragraph="From backend logic to polished UI — here’s how I bring full-stack ideas to life."
+                    paragraph="From client portals and internal tools to analytics dashboards and public-facing platforms, here is how I turn requirements into shipped software."
                 />
                 <div className="flex flex-col gap-20 mt-10 md:mt-20">
                     {portfolioProjects.map((project, index) => (

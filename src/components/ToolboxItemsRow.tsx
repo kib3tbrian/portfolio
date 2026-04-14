@@ -23,7 +23,7 @@ export const ToolboxItemsRow = ({
                 maskImage: `linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)`,
             }}>
             <div className={twMerge("flex flex-none py-0.5 gap-6 pr-3", itemsWrapperClassName)}>
-                {[...new Array(2)].fill(0).map((_, index) => (
+                {[...new Array(items.length > 0 ? 2 : 0)].fill(0).map((_, index) => (
                     <Fragment key={index}>
                         {items.map((item) => (
                             <div

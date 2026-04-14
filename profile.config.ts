@@ -4,6 +4,7 @@ import SolidityIcon from "@/assets/icons/toolbox/solidity.svg";
 import HTML5Icon from "@/assets/icons/toolbox/html5.svg";
 import CssIcon from "@/assets/icons/toolbox/css3.svg";
 import ReactIcon from "@/assets/icons/toolbox/react.svg";
+import NestIcon from "@/assets/icons/toolbox/nest.svg";
 import FastAPIIcon from "@/assets/icons/toolbox/fastapi.svg";
 import GitIcon from "@/assets/icons/toolbox/git.svg";
 import PostgresIcon from "@/assets/icons/toolbox/postgresql.svg";
@@ -24,6 +25,44 @@ import markshifyLandingPage from "@/assets/images/markshify-landing-page.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import grownUpMarketingAvatar from "@/assets/images/grown-up-marketing.webp";
 import shanzilAvatar from "@/assets/images/shanzil-avatar.webp";
+import React from "react";
+
+const createTextBadgeIcon = (label: string) => {
+    const TextBadgeIcon = ({ className }: { className?: string }) =>
+        React.createElement(
+            "div",
+            {
+                className: `${className ?? ""} rounded-xl border border-white/10 bg-white/5 text-[10px] font-bold tracking-wide text-white flex items-center justify-center px-1 text-center leading-tight`,
+            },
+            label
+        );
+
+    TextBadgeIcon.displayName = `${label}BadgeIcon`;
+    return TextBadgeIcon;
+};
+
+const PHPIcon = createTextBadgeIcon("PHP");
+const SQLIcon = createTextBadgeIcon("SQL");
+const BashIcon = createTextBadgeIcon("Bash");
+const ShellIcon = createTextBadgeIcon("Shell");
+const RESTIcon = createTextBadgeIcon("REST");
+const PrismaIcon = createTextBadgeIcon("Prisma");
+const BetterAuthIcon = createTextBadgeIcon("Auth");
+const SupabaseIcon = createTextBadgeIcon("Supabase");
+const RedisIcon = createTextBadgeIcon("Redis");
+const DockerIcon = createTextBadgeIcon("Docker");
+const ActionsIcon = createTextBadgeIcon("Actions");
+const AWSIcon = createTextBadgeIcon("AWS");
+const GCPIcon = createTextBadgeIcon("GCP");
+const OCIIcon = createTextBadgeIcon("OCI");
+const LinuxIcon = createTextBadgeIcon("Linux");
+const PyTorchIcon = createTextBadgeIcon("PyTorch");
+const TensorFlowIcon = createTextBadgeIcon("TF");
+const LangChainIcon = createTextBadgeIcon("LangChain");
+const PandasIcon = createTextBadgeIcon("Pandas");
+const JupyterIcon = createTextBadgeIcon("Jupyter");
+const DbtIcon = createTextBadgeIcon("dbt");
+const SparkIcon = createTextBadgeIcon("Spark");
 
 const CONFIG = {
     email: "its.kibetbrian@gmail.com",
@@ -41,8 +80,28 @@ const CONFIG = {
             iconType: PythonIcon,
         },
         {
+            title: "PHP",
+            iconType: PHPIcon,
+        },
+        {
             title: "TypeScript",
             iconType: SquareTsIcon,
+        },
+        {
+            title: "SQL",
+            iconType: SQLIcon,
+        },
+        {
+            title: "Bash",
+            iconType: BashIcon,
+        },
+        {
+            title: "Shell Scripting",
+            iconType: ShellIcon,
+        },
+        {
+            title: "NestJS",
+            iconType: NestIcon,
         },
         {
             title: "Node.js",
@@ -65,6 +124,18 @@ const CONFIG = {
             iconType: FastAPIIcon,
         },
         {
+            title: "REST APIs",
+            iconType: RESTIcon,
+        },
+        {
+            title: "Prisma",
+            iconType: PrismaIcon,
+        },
+        {
+            title: "Better-Auth",
+            iconType: BetterAuthIcon,
+        },
+        {
             title: "Postman",
             iconType: PostmanIcon,
         },
@@ -85,6 +156,14 @@ const CONFIG = {
             iconType: FirebaseIcon,
         },
         {
+            title: "Supabase",
+            iconType: SupabaseIcon,
+        },
+        {
+            title: "Redis",
+            iconType: RedisIcon,
+        },
+        {
             title: "PostgreSQL",
             iconType: PostgresIcon,
         },
@@ -97,12 +176,64 @@ const CONFIG = {
             iconType: GithubIcon,
         },
         {
+            title: "GitHub Actions",
+            iconType: ActionsIcon,
+        },
+        {
+            title: "Docker",
+            iconType: DockerIcon,
+        },
+        {
+            title: "AWS",
+            iconType: AWSIcon,
+        },
+        {
+            title: "GCP",
+            iconType: GCPIcon,
+        },
+        {
+            title: "OCI",
+            iconType: OCIIcon,
+        },
+        {
+            title: "Linux",
+            iconType: LinuxIcon,
+        },
+        {
             title: "Visual Studio Code",
             iconType: VSCodeIcon,
         },
         {
             title: "Vercel",
             iconType: VercelIcon,
+        },
+        {
+            title: "PyTorch",
+            iconType: PyTorchIcon,
+        },
+        {
+            title: "TensorFlow",
+            iconType: TensorFlowIcon,
+        },
+        {
+            title: "LangChain",
+            iconType: LangChainIcon,
+        },
+        {
+            title: "Pandas",
+            iconType: PandasIcon,
+        },
+        {
+            title: "Jupyter",
+            iconType: JupyterIcon,
+        },
+        {
+            title: "dbt",
+            iconType: DbtIcon,
+        },
+        {
+            title: "Apache Spark",
+            iconType: SparkIcon,
         },
     ],
     hobbies: [
@@ -176,9 +307,9 @@ const CONFIG = {
             year: "2022",
             title: "Backend for Social Media Platform",
             results: [
-                { title: "Encompassing 30+ endpoints" },
-                { title: "Implemented 5+ core features" },
-                { title: "Database incorporating geospatial data" },
+                { title: "Built and documented 30+ API endpoints powering core social platform workflows" },
+                { title: "Implemented 5+ product features across authentication, content, and user interactions" },
+                { title: "Designed a geospatial data layer to support location-aware discovery and queries" },
             ],
             link: "/images/flowchart-local-social.png",
             image: localSocialPostmanPage,
@@ -189,8 +320,8 @@ const CONFIG = {
             year: "2026",
             title: "Medical Tourism Platform",
             results: [
-                { title: "Built a platform that positions Ultimate MedLink as Africa's bridge to world-class healthcare" },
-                { title: "Highlighted access to care across India, Israel, Kenya, Turkey, and the UAE with transparent patient journeys" },
+                { title: "Built a conversion-focused platform that presents Ultimate MedLink as Africa's bridge to world-class healthcare" },
+                { title: "Structured patient journeys across India, Israel, Kenya, Turkey, and the UAE for clarity and trust" },
                 { title: "Showcased scale through 300+ hospitals, 10+ specialties, 50+ JCI-accredited partners, and Pan-African support" },
             ],
             link: "https://uml.co.ke",
@@ -202,9 +333,9 @@ const CONFIG = {
             year: "2023",
             title: "Tours & Travel Platform",
             results: [
-                { title: "Developed a modern web platform for GPS Travel, a Kenya-based company specializing in bespoke African journeys" },
-                { title: "Integrated booking and itinerary management for airport transfers, safaris, and luxury getaways" },
-                { title: "Enhanced user experience with real-time support and meet-and-greet service integration" },
+                { title: "Translated client requirements into a polished travel platform for bespoke African journeys" },
+                { title: "Integrated booking and itinerary flows for airport transfers, safaris, and luxury getaways" },
+                { title: "Improved customer experience with real-time support touchpoints and meet-and-greet service details" },
             ],
             link: "https://gpstravel.co.ke",
             image: "/images/gpstravel.png",
@@ -215,9 +346,9 @@ const CONFIG = {
             year: "2025",
             title: "Emergency Contact App",
             results: [
-                { title: "Developed a fast, reliable platform for users to share verified emergency details securely" },
-                { title: "Streamlined UX with debounced inputs, instant validation, and responsive design" },
-                { title: "Set for Play Store launch with full mobile optimization and production-ready build" },
+                { title: "Built a fast, reliable mobile experience for sharing verified emergency details securely" },
+                { title: "Improved UX with debounced inputs, instant validation, and responsive flows" },
+                { title: "Prepared the product for launch with mobile optimization and production-ready delivery" },
             ],
             link: "@/assets/images/destress.jpg",
             image: distressapp,
@@ -228,9 +359,9 @@ const CONFIG = {
             year: "2023",
             title: "Building & Construction Platform",
             results: [
-                { title: "Built a modern web platform to showcase construction projects, services, and completed works with a premium UI" },
-                { title: "Improved content discovery using clear section hierarchy, card-based layouts, and mobile-first design" },
-                { title: "Optimized performance and SEO readiness for lead generation and future scaling" },
+                { title: "Built a modern platform to showcase construction projects, services, and completed works with a premium UI" },
+                { title: "Improved content discovery with clear hierarchy, card-based layouts, and mobile-first design" },
+                { title: "Optimized performance and SEO foundations to support lead generation and future scaling" },
             ],
             link: "https://buildafrique.com",
             image: "/images/buildAfrique.png",
@@ -241,9 +372,9 @@ const CONFIG = {
             year: "2022",
             title: "Claims Processing & Internal Tools",
             results: [
-                { title: "Automated and optimized claims workflows to reduce manual processing and data inconsistencies" },
-                { title: "Enhanced backend validation logic to improve accuracy and turnaround time for claims review" },
-                { title: "Collaborated with cross-functional teams to support scalable healthcare operations" },
+                { title: "Supported high-volume claims workflows with process improvements and cleaner internal tooling" },
+                { title: "Strengthened validation and reconciliation flows to improve accuracy and turnaround time" },
+                { title: "Built reporting and operational visibility that supported faster, data-driven decisions" },
             ],
             link: "https://pendahealth.com",
             image: "/images/pendahealth.png",
@@ -254,9 +385,9 @@ const CONFIG = {
             year: "2023",
             title: "SME Lending Application",
             results: [
-                { title: "Contributed to building data-driven features for SME credit assessment and financial insights" },
-                { title: "Worked on secure APIs and data handling to support risk evaluation workflows" },
-                { title: "Focused on performance and reliability for systems handling sensitive financial information" },
+                { title: "Delivered portal and data workflow improvements to support SME lending operations" },
+                { title: "Integrated secure APIs, reporting flows, and role-based access control for operational reliability" },
+                { title: "Focused on performance and data integrity for systems handling sensitive financial information" },
             ],
             link: "https://play.google.com/store/apps/details?id=com.numidatech.numida",
             image: "/images/numidaAfrica.jpg",
@@ -267,9 +398,9 @@ const CONFIG = {
             year: "2025",
             title: "Web Systems & Digital Solutions",
             results: [
-                { title: "Developed and maintained client-facing web applications with a focus on stability and usability" },
-                { title: "Implemented responsive layouts and reusable components to speed up delivery timelines" },
-                { title: "Supported deployments and iterative improvements based on client feedback" },
+                { title: "Improved client web properties with a focus on performance, usability, and maintainability" },
+                { title: "Customized interfaces and integrations across themes, plugins, and third-party services" },
+                { title: "Supported iterative releases with optimization work spanning images, caching, and site structure" },
             ],
             link: "https://icyberenterprises.com",
             image: "/images/icyber.png",
@@ -281,8 +412,8 @@ const CONFIG = {
             title: "Sports Analytics Platform",
             results: [
                 { title: "Built interactive dashboards for visualizing match data and performance metrics" },
-                { title: "Optimized frontend rendering for real-time or near-real-time score updates" },
-                { title: "Designed a clean, data-focused UI to improve clarity and user engagement" },
+                { title: "Optimized frontend rendering for real-time and near-real-time score updates" },
+                { title: "Designed a clean, data-focused UI that made analytics easier to scan and act on" },
             ],
             link: "https://xgscore.io",
             image: "/images/xgscore.png",

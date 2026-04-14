@@ -8,37 +8,43 @@ import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItemsRow } from "@/components/ToolboxItemsRow";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useMemo, useRef } from "react";
 import { hobbies, toolBoxItems } from "../../profile.config";
 
 export const AboutSection = ({ id }: { id: string }) => {
     const constraintRef = useRef(null);
+    const uniqueToolboxItems = useMemo(
+        () => toolBoxItems.filter((item, index, items) => items.findIndex((entry) => entry.title === item.title) === index),
+        []
+    );
+    const firstRowItems = uniqueToolboxItems.filter((_, index) => index % 2 === 0);
+    const secondRowItems = uniqueToolboxItems.filter((_, index) => index % 2 === 1);
 
     return (
         <div className="py-20 md:py-14 lg:py-20 lg:mt-3">
             <section className="container" id={id}>
                 <SectionHeader
                     heading1="About Me"
-                    heading2="A Glimpse Into My World"
-                    paragraph="Learn more about who I am, what I do, and what inspires me."
+                    heading2="I Build The Good Stuff, End to End"
+                    paragraph="From slick frontends to hard-working backends and cloud setup, I turn ideas into products people actually enjoy using."
                 />
-                <div className="mt-20 flex flex-col gap-8">
+                <div className="mt-20 flex flex-col gap-6">
                     <div className="grid gap-8 grid-cols-1 md:flex md:justify-center lg:flex lg:justify-center">
-                        <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
+                        <Card className="min-h-[360px] pb-8 md:pb-10 p-0 md:col-span-3 lg:col-span-2">
                             <CardHeader
                                 heading="My Toolbox"
-                                description="Explore the technologies and tools I use to craft exceptional digital experiences."
+                                description="My go-to stack for shipping fast, building smart, and keeping products sturdy under the hood."
                                 className="p-6 pb-0 lg:-mt-0.5 flex flex-col items-center text-center"
                             />
                             <ToolboxItemsRow
-                                items={toolBoxItems}
+                                items={firstRowItems}
                                 className="mt-4 md:mt-6"
-                                itemsWrapperClassName="animate-scroll-left [animation-duration:30s]"
+                                itemsWrapperClassName="animate-scroll-left [animation-duration:55s]"
                             />
                             <ToolboxItemsRow
-                                items={toolBoxItems}
-                                className="mt-6"
-                                itemsWrapperClassName="animate-scroll-right [animation-duration:15s]"
+                                items={secondRowItems}
+                                className="mt-5 md:mt-6"
+                                itemsWrapperClassName="animate-scroll-right [animation-duration:70s]"
                             />
                         </Card>
                     </div>
