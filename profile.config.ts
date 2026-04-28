@@ -274,7 +274,7 @@ const CONFIG = {
     footerLinks: [
         {
             title: "Github",
-            href: "https://github.com/kib3tbrian",
+            href: "https://github.com/itskibetbrian",
         },
         {
             title: "Discord",
